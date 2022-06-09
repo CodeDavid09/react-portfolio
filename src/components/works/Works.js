@@ -9,8 +9,8 @@ import './Works.css';
 
 // Import ../../assets/recentprojects/
 import Portfolio from '../../assets/recentprojects/react-portfolio.png';
-import Veritru from '../../assets/recentprojects/veritru.png';
-import Lofo from '../../assets/recentprojects/lofo.png';
+import Ecommerce from '../../assets/recentprojects/Ecommerce.png';
+import weatherdashboard from '../../assets/recentprojects/weatherdashboard.png';
 import Startup from '../../assets/recentprojects/startup.png';
 import Lacalle from '../../assets/recentprojects/lacalle.png';
 
@@ -30,26 +30,25 @@ export const Works = () => {
       title: 'React Portfolio', 
       description: `Designed and developed a ReactJS portfolio 
       with fancy 3D animations using Three.js for 
-      the background element.`,
+      the background element. Portfolio showcases previous work and is updated with new projects as they are completed.
+      `,
       alter: 'React Portfolio',
       image: `${Portfolio}`,
     },
     { 
       id: 2,
-      title: 'VeriTru Project', 
-      description: `An advocacy project website built using
-      MEAN stack with fact-checking tool to promote actions against
-      fake news.`,
-      alter: 'VeriTru Project',
-      image: `${Veritru}`,
+      title: 'eCommerce Backend', 
+      description: `Build the back end for an e-commerce site. Configure a working Express.js API to use Sequelize to interact with a MySQL database.`,
+      alter: 'eCommerce',
+      image: `${Ecommerce}`,
     },
     { 
       id: 3,
-      title: 'LoFo Project', 
-      description: `Logistics and Forwarding website built using
-      ReactJS to design and develop its front-end.`,
-      alter: 'LoFo Project',
-      image: `${Lofo}`,
+      title: 'Weather Dashboard', 
+      description: `Build a weather dashboard that will run in the browser and feature dynamically updated HTML and CSS.
+      Using the OpenWeather One Call API to retrieve weather data for cities.`,
+      alter: 'Weather Dashboard',
+      image: `${weatherdashboard}`,
     },
     { 
       id: 4,

@@ -1,6 +1,7 @@
 import React from "react";
 import { makeStyles } from "@material-ui/core/styles";
 
+
 const useStyles = makeStyles((theme) => ({
   svgHover: {
     fill: theme.palette.foreground.default,
@@ -15,9 +16,6 @@ export const Logo = () => {
     const classes = useStyles();
 
     return (
-    <>
-    
-DG
-    </>
+<></>
     );
 };
