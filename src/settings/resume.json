@@ -1,9 +1,9 @@
 {
     "basics": {
-        "name": "Mark Tan",
+        "name": "David Gavino",
         "label": "Web Developer",
-        "email": "markcmtan@gmail.com",
-        "phone": "(XXX) XXX-XXXX",
+        "email": "dgavino0991@gmail.com",
+        "phone": "(719) 330-2941",
         "picture": "mt.png",
         "x_title": "Hello, I'm",
         "job1": "Designer",
@@ -14,46 +14,34 @@
         "url": "https://taniyow.vercel.app/",
         "location": {
             "address": "XX XXXXXstreet",
-            "postalCode": "XXXXX",
-            "city": "Angeles",
-            "country": "Philippines",
-            "countryCode": "PH",
-            "region": "Pampanga"
+            "postalCode": "80210",
+            "city": "Denver",
+            "country": "United States",
+            "countryCode": "US",
+            "region": "Colorado"
         },
         "profiles": [
             {
                 "network": "Google",
-                "username": "markcmtan@gmail.com",
-                "url": "mailto:markcmtan@gmail.com",
+                "username": "dgavino0991@gmail.com",
+                "url": "mailto:dgavino0991@gmail.com",
                 "x_icon": "fab fa-google"
             },
             {
                 "network": "LinkedIn",
-                "username": "mcmtan",
-                "url": "https://www.linkedin.com/in/mcmtan/",
+                "username": "dgavino",
+                "url": "https://www.linkedin.com/in/dgavino/",
                 "x_icon": "fab fa-linkedin-in"
             },
             {
                 "network": "GitHub",
-                "username": "taniyow",
-                "url": "https://github.com/taniyow",
+                "username": "codedavid09",
+                "url": "https://github.com/codedavid09",
                 "x_icon": "fab fa-github"
             },
             {
-                "network": "GitLab",
-                "username": "taniyow",
-                "url": "https://gitlab.com/taniyow",
-                "x_icon": "fab fa-gitlab"
-            },
-            {
-                "network": "Telegram",
-                "username": "marktaniyow",
-                "url": "https://t.me/marktaniyow",
-                "x_icon": "fab fa-telegram-plane"
-            },
-            {
                 "network": "Discord",
-                "username": "taniyow#9142",
+                "username": "iron.hashira#2452",
                 "url": "https://discord.com",
                 "x_icon": "fab fa-discord"
             }
