@@ -11,8 +11,8 @@ import './Works.css';
 import Portfolio from '../../assets/recentprojects/react-portfolio.png';
 import Ecommerce from '../../assets/recentprojects/Ecommerce.png';
 import weatherdashboard from '../../assets/recentprojects/weatherdashboard.png';
-import Startup from '../../assets/recentprojects/startup.png';
-import Lacalle from '../../assets/recentprojects/lacalle.png';
+import reactport from '../../assets/recentprojects/reactport.png';
+import booksearch from '../../assets/recentprojects/booksearch.png';
 
 const useStyles = makeStyles((theme) => ({
   main: {
@@ -52,20 +52,19 @@ export const Works = () => {
     },
     { 
       id: 4,
-      title: 'Startup Project', 
-      description: `A website portfolio project for the Startup Dev Team
-      built using MEVN stack to demonstrate the CRUD capabilities of the tech stack.`,
-      alter: 'Startup Project',
-      image: `${Startup}`,
+      title: 'Portfolio Designs', 
+      description: `A website portfolio project to demonstrate skills to create a portfolio design using React`,
+      alter: 'Porfolio Design',
+      image: `${reactport}`,
     },
     { 
       id: 5,
-      title: 'LaCalle Cafe', 
-      description: `A website project for the La Calle Cafe business
-      built using Wordpress and PHP with integrated SEO tools to help
-      the business ramp up its prospects and lead generation.`,
+      title: 'Book Search Engine', 
+      description: `Google Books API search engine built with a RESTful API, and refactor it to be a 
+      GraphQL API built with Apollo Server. The app was built using the MERN stack with a React front end, 
+      MongoDB database, and Node.js/Express.js server and API. `,
       alter: 'Startup Project',
-      image: `${Lacalle}`,
+      image: `${booksearch}`,
     },
   ]);
 

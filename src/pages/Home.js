@@ -28,7 +28,7 @@ export const Home = () => {
     <>
       <div className={classes.root} id="home">
         <DisplacementSphere />
-        <LogoLink />
+        
         <Content />
         <ThemeToggle />
         <Hidden smDown>
